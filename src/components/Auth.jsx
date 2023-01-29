@@ -29,7 +29,8 @@ const Auth = () => {
 
 		const { username, password,phoneNumber, avatarURL } = form;
 
-		const URL = 'https://medic-chat-app.herokuapp.com/auth';
+// 		const URL = 'https://medic-chat-app.herokuapp.com/auth';
+		const URL = 'https://medic-chat-server.onrender.com/auth';
 
 		//TODO: deploy to HEROKU
 
